@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.container h1{
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a0aec0;
+  border-radius: 4px;
+  padding: 8px;
+  width: 600px;
+  border: none;
+}
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.display-chip {
+  background-color: #e2e8f0;
+  color: #2d3748;
+  padding: 4px 8px;
+  margin: 4px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.chip-avatar img {
+  width: 20px; /* Set the desired width */
+  height: 20px; /* Set the desired height */
+  border-radius: 50%;
+  margin-right: 8px; /* Adjust the spacing between the image and text */
+}
+
+.chip-remove {
+  cursor: pointer;
+  margin-left: 4px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 10px 1px;
+  border: 1px solid #2d3748;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.item:hover {
+  background-color: #edf2f7;
+}
